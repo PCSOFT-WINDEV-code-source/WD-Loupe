@@ -1,0 +1,422 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Loupe
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Loupe
+ identifier : 0x25670aef0a9a79d8
+ internal_properties : CAAAAAgAAACnuB1pEvQmsg25QXakH4ArjJo6ZbSdMRTpotca/r3bmKfVwfsWCSFEaCUI23qM45k+RWZsg4YO3GtJ+pQBHnYyCHO2cv+pxSUTGD5GqAZoCa5wSsZ0lqfJr3gEklFWq1DFplWhUsZ3W2rtZdnXxJyNu6zm+HchpPXNCjVdjcGueahGCOmzUFBtGBjRk5M9zZVKyxv9FhcRcSXfGSV/9kBI/DtduZEaxZsGebUOnZ+gVDCN5ZkvQnyTGZbKB8y1hPNnaTH2BP2oKHnyMEm5w+goA3zbVaO4keIWCfWJBQVqhr/HPixkgLod344ajtvKKH2oXTF+4g7H3nF3++oWLLniePrzYkMOL/u7Qpu62m0CWyK/XfzYSUAInCZHfQWN1wA2sgFBcNRTeMGhAsacOdp0G86kpa5j4vnOD3jykTRRZbP2fS/i4zSwV7inHcLnb1keOZjgJfeU6f/PBlTU43utBA+/l8sXARXKdfbP7+coXwnipOiCtrUY3Oem7u4RzVsi82f/+D+EuR9sgSFlLZ0f6Ipg3PMXW0AGQLW82rIhcpWV73hFZC11SiMTI8H4Cz70ncp84EvJ9Eq6k+gkx5IzWNPQWJfpzUFWz5iwjWzJ7dkJ8+9aQBNWk1zmOxh1vWVdeE8tG7a5plz7oieMpXufQuLXC8yribVSkG7QQfaCKu/Qxdr+PKzJZDv+1YMU1GL2bzyZKJgCzL7J1yr4kgLaHKrFvJX+Yeuk3E3LhEV3tMprsfHwCQ1vWgsGRe6kmayCfciPkDs=
+ properties :
+  width : 334
+  height : 310
+ controls :
+  -
+    name : BT_ECHAP
+    identifier : 0x25670aef0a9d79d8
+    internal_properties : CAAAAAgAAABthjyGR/lUq2WaIZAv+qc07hTCr701q/SYpLTmtnS1hmaCCR14Aw4otpl+pdKMOuKtXLS49hm/zXR5TnbOZGhsCd/GrTqq7TtEocS4LzoT1rPo6CraiIAWL5rNRd5Uy7WSNE+CM/2tmube/iKrEo6phcQ0ZBq4O6rsuwLb6dOn7x4dYNE1Hu+SQKtbCs1hGRpe0cd0qYkemyDjAZKQ7EsE4DZLrGxRpSrsNwFjr9YDtvqgJiUD1uJqkdN/NUU5fPisj7sTQjiS5US8gCXYiLSCfxzTfHmr9yRR+lxrXSeO1xftJgFQ81DCplYggpyMpJ/M97PiN1yJQ4jo620z924/amWADxeBDFfUuMe+LutURqh+is21v4d/4v2qbeSEKgRM/clsV09QmokyaFJC9bAOrQLVm3CKY+FWR0VWNhDhnPjgJPWJWQgxMdT2uCFf9a6BeO7vzWBORESwjq7XAx5g3EdPbVRtCZF2qyn68wN1/MfYcs86rQB5scnN68oRHUyh4ATfyPrI9czxJZVqsLO2jXrMuCQA0bqdvEYp/07yfavJsRGboX8cDiNZbTrmNTkL4HwwgAQ7p1jnC/lyCErkX6EC14Yqe5Z1B3RV9uggDmJtIVS5QjycbnU3U80Cz37QaBuTchmv4q26+2zFIHKHgdOAEjBAxde5t4C3QSGNHeqNhsyOQmTl
+    properties :
+     y : 314
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Ferme la fenêtre sur l'appui de la touche ECHAP
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_LOUPE
+    identifier : 0x25670aef0a9c79d8
+    internal_properties : CAAAAAgAAADW5g9CB+jzuVZOJDrs5zNA1csr03mhfFin8xJbWrWa9Kt4fy7Vo6P0V4gBLxkaTEbpDf+8PEcVZqxpYU3FOmc1oC2clnSv7i6ccztZ5M4aH/vlW0KAMiI8/1AoBK9dcj13RbJLSpHHstEMczGk4AVNUMZuchGQu19xCw5C4nCOUWA4X3nU1fUZjeymH/sISNYfLA/gkAWdPBlzXB39Glao+mIiOp/cWmdnHM0vgCy+SGh3A0ThDTHDj5raefIz52WLEzxztLdn6ebg2NyH5UNfn7lrOM9Vh6P7+H2B2NGS0hZZ9+wPN2eReBobIGbZkVXRGP4rAXQysf6x0dBUwWhKU9ody3iekkJkA9Gl8tXEGxcMSC/BOPPyfVTiLjRl5fnNI6FH1MtBslaXpVvaW3qcvht5Bchk89+rCufP2+pGsAgIlt4tgwlOu2anqN33ZRIfCkfvRIarfM0V7Xok+106fEofhnlCNOmHlwitMgTh/EYAaHRzyf7pWSekrRTeHsDWTzZvL9/k4Us+G8PkEax0xNP5ObVVKHkdb9ZWYwMMu/0Z4V6pfc1REad5u/UjQeFttIQBdiiL5QqOA9F7NWdxfaGaXDCKzQ==
+    properties :
+     x : 28
+     y : 26
+     width : 172
+     height : 172
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x25670aef0a9e79d8
+  internal_properties : CAAAAAgAAACPzUo2erjRHVjlcpsA0ig3YMnjfx4dJMCy2fK2AywdHHwe0aVfM1gNGs9KZmiKfMv3uuS+D4VuJa1bOEZ9xwlXKs7CvlLqs18qHcm0ynwBVdAP7+Yj+5PALXncJl2uQojw2Q5gyw+sQXGsEOzLkJe3kulo+svmBm7XQzVQO/ecABZxDuI7cFW1zDlZxilwPAvtB8u5AondeJoQ878piYDki3QDlf/CQBEByG1NsGcVtDyRT/FdSCpxz3SawVQV2Umlr2HnrB+58qhvU8Sn/TJ0BCNzcxgvHQ3n
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADTy2M67X4un5sSbiz6mw8KrC6EQC2mDbzMMdexEbcgDTVDM1QQi+Nc4tW2hxyItXihFv3NU+Ur/MfI4vKfPADTHBeS1pkKfL5L9rHcT2hLEyd3MgD1gr8WAn+hxz9m
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAC58dzeWsUKkJiLuPZPWih4gb8Mz2+VTnqvXS2xzDqm4Fz5XGy1kGO1xDOWyL/a9vtcIxitn5Mxdy1YLzSc489VRN3+MPW9ne1u4v0J8vSkg7Ym6MBwX5lqdCI+L4y4RIaUC93ZmfHfML0zETGYqPEFQyJneZlKCu7AKl0b3/QO
+     code : |1-
+      
+      // Exécution sous Vista
+      gbVista est un booléen = (val(SysVersionWindows(sysVersionNuméro)) >= 6)
+      
+      // Facteur de zoom
+      gnZoom est un entier = 2
+      
+      // Rend la fenêtre "invisible" aux copies d'écran effectuées avec dCopieImage.
+      api(user32, "SetWindowLongA", handle(), -20, 0x00080000)
+      API(user32, "SetLayeredWindowAttributes", Handle(), MagentaClair, 255, 0x00000001)	
+      
+      gnDC 		est un entier systeme
+      gnHwnd		est un entier système
+      gnTaille	est un entier = CoordonnéeEditeurVersEcran(174)
+      
+      // En utilisant l'API GDI, on crée une région elliptique qui correspond au cercle de la loupe.
+      gnRgn 		est un entier systeme = api(gdi32,"CreateEllipticRgn", 0, 0, gnTaille, gnTaille)
+      
+      si gbVista = faux ALORS
+      		
+      	// Débute le dessin dans le champ image IMG_LOUPE
+      
+      	gnDC = dDébutDessin(IMG_LOUPE)
+      	gnHwnd = handle(img_loupe)
+      		
+      	// Applique la région elliptique au champ image
+      	// Cela va permettre d'activer le dessin uniquement dans cette zone circulaire.
+      	// A chaque fois qu'une fonction de dessin va être utilisée, seule la région circulaire sera mise à jour dans le champ image.
+      	API(gdi32,"SelectObject", gnDC, gnRgn)
+      FIN
+      
+      // Cache le curseur de la souris : la souris ne sera pas visible lors que le curseur survolera la fenêtre
+      CurseurAffiche(faux)
+      
+      local
+      	// Récupère les coordonnées actuelles du curseur de la souris sur l'écran
+      
+      	nX est un entier = poidsfaible(curseurpos(cpEcran))
+      	nY est un entier = poidsfort(curseurpos(cpEcran))
+      	
+      	// Positionne la fenêtre aux coordonnées de la souris
+      	mafenetre..x = nX - (IMG_LOUPE..x + IMG_LOUPE..largeur / 2)
+      	mafenetre..y = nY - (IMG_LOUPE..Y + IMG_LOUPE..Hauteur / 2)	
+      		
+      	SI gbVista ALORS
+      		
+      		// Initialise le magnifier de Vista
+      		InitialiseLoupeVista()	
+      	FIN
+   -
+     code : |1-
+      
+      // Positionne la fenêtre en avant-plan ("TOPMOST")
+      FenEtat(FEN_Loupe, DessusTout)
+      
+      // Premier affichage
+      MiseAJour()
+      
+      FEN_Loupe..Visible = Vrai
+      
+      // On doit ré-afficher l'image originale
+      IMG_LOUPE = IMG_LOUPE..ValeurInitiale
+      
+      // Déclenche un timer qui va repositionner la fenêtre aux coordonnées de la souris
+      // Permet de faire suivre le curseur par la fenêtre
+      FenêtrePosition()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      SI gbVista ALORS
+      	
+      	// Décharge le Magnifier
+      	API(magnification, "MagUninitialize")
+      FIN
+      
+      // Ré-affiche le curseur
+      CurseurAffiche(vrai)
+      
+      // Détruit la région circulaire
+      api(gdi32, "DeleteObject", gnRgn)
+      
+      // Libère le DC du champ image
+      dFinDessin(IMG_LOUPE)
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+   -
+     type : 66049
+   -
+     code : |1-
+      
+      // Augmente le niveau de zoom
+      gnZoom ++
+      gnZoom = min(8, gnZoom)
+      
+      SI gbVista ALORS
+      	
+      	// Préparation du zoom
+      	tabZoom est un tableau de 3 par 3 réels sur 4
+      	tabZoom[1][1] = gnZoom
+      	tabZoom[2][2] = gnZoom
+      	tabZoom[3][3] = 1
+      	
+      	// Initialisation du zoom
+      	API(magnification, "MagSetWindowTransform", gnHwnd, &tabZoom)
+      fin
+      
+      // Actualise la loupe
+      MiseAJour()
+     type : 66050
+   -
+     code : |1+
+      
+      // Diminue le niveau de zoom
+      gnZoom --
+      gnZoom = max(2, gnZoom)
+      
+      SI gbVista ALORS
+      	
+      	// Préparation du zoom
+      	tabZoom est un tableau de 3 par 3 réels sur 4
+      	tabZoom[1][1] = gnZoom
+      	tabZoom[2][2] = gnZoom
+      	tabZoom[3][3] = 1
+      	
+      	// Initialisation du zoom
+      	API(magnification, "MagSetWindowTransform", gnHwnd, &tabZoom)
+      fin
+      
+      // Actualise la loupe
+      MiseAJour()
+     type : 66053
+   -
+     code : |1-
+      
+      // Diminue le niveau de zoom
+      gnZoom += _eve.wparam / abs(_eve.wparam)
+      gnZoom = Max(2, gnZoom)
+      
+      SI gbVista ALORS
+      	
+      	// Préparation du zoom
+      	tabZoom est un tableau de 3 par 3 réels sur 4
+      	tabZoom[1][1] = gnZoom
+      	tabZoom[2][2] = gnZoom
+      	tabZoom[3][3] = 1
+      	
+      	// Initialisation du zoom
+      	API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &tabZoom)
+      FIN
+      
+      // Actualise la loupe
+      MiseAJour()
+     type : 66058
+   -
+     code : |1-
+      
+      // Actualise la loupe
+      MiseAJour()
+     type : 65539
+  procedures :
+   -
+     name : FenêtrePosition
+     procedure_id : 1542213419013274072
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //FenêtrePosition ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure FenêtrePosition()
+      
+      	fintimer(1000)
+      
+      	nX est un entier
+      	nY est un entier
+      	nOldX est un entier
+      	nOldY est un entier	
+      	
+      	// Récupère les coordonnées de la souris à l'écran
+      	nX = poidsfaible(curseurpos(cpEcran))
+      	nY = poidsfort(curseurpos(cpEcran))
+      
+      	// Récupère les coordonnées actuelles de la fenêtre à l'écran
+      	nOldX = mafenetre..x
+      	nOldY = mafenetre..Y
+      
+      	// Si les coordonnées de la souris ont changé, il faut déplacer la fenêtre
+      	si (nOldX <> nX - (IMG_LOUPE..x + IMG_LOUPE..largeur / 2)) _ou_ (nOldY <> nY - (IMG_LOUPE..y + IMG_LOUPE..hauteur / 2)) alors
+      	
+      		// Déplace la fenêtre
+      		fentaille(FEN_Loupe, (nX - (IMG_LOUPE..X + IMG_LOUPE..Largeur / 2)), (nY - (IMG_LOUPE..Y + IMG_LOUPE..Hauteur / 2)), mafenetre..largeur, mafenetre..hauteur)
+      	
+      	fin
+      	
+      	// Repositionne la fenêtre en avant-plan ("TOPMOST")
+      	FenEtat(FEN_Loupe, dessustout)	
+      	timer(FenêtrePosition, 1, 1000)
+      	
+     type : 458752
+   -
+     name : MiseAJour
+     procedure_id : 1542213419013339608
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //MiseAJour ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure MiseAJour()
+      
+      	// A chaque fois que la fenêtre est déplacée, on effectue une copie de l'écran à la zone occupée par le champ image dans le champ image
+      
+      	nX, nY sont des entiers
+      	nXCopie, nYCopie sont des entiers
+      	nLCopie, nHCopie sont des entiers = (IMG_LOUPE..Largeur, IMG_LOUPE..Hauteur)
+      	
+      	nXCopie 	= (MaFenêtre..X + IMG_LOUPE..x + nLCopie / 2) - ((nLCopie / 2) / gnZoom)
+      	nYCopie 	= (MaFenêtre..y + IMG_LOUPE..y + nHCopie / 2) - ((nHCopie / 2) / gnZoom)
+      		
+      
+      	SI gbVista ALORS
+      		
+      		// Récupère les coordonnées de la souris à l'écran
+      		nX = PoidsFaible(CurseurPos(cpEcran))
+      		nY = PoidsFort(CurseurPos(cpEcran))
+      		
+      		RECT est une structure
+      			nGauche, nHaut, nDroite, nBas sont des entiers
+      		FIN
+      		
+      		// On utilise la Magnifier
+      		stRectCopie est un RECT
+      		
+      		stRectCopie:nGauche 			= nXCopie
+      		stRectCopie:nDroite 			= nLCopie
+      		stRectCopie:nHaut 				= nYCopie
+      		stRectCopie:nBas 				= nHCopie
+      				
+      		// Récupère l'image
+      		si EnMode64bits() ALORS
+      			API(Magnification, "MagSetWindowSource", gnHwnd, &stRectCopie)
+      		sinon
+      			API(MAGNIFICATION, "MagSetWindowSource", gnHwnd, stRectCopie)
+      		FIN
+      		
+      		// Mise à jour
+      		api(user32, "InvalidateRect", gnHwnd, null, vrai)
+      		
+      	sinon	
+      		
+      		// Copie la zone (X,Y)-(X+85,Y+85) vers la zone (0,0)-(170,170)
+      		// => la zone copiée est alors zoomée par 2
+      		dCopieImage(copieEcran, IMG_LOUPE, copieSrcCopie, nXCopie, nYCopie, nHCopie / gnZoom, nLCopie / gnZoom, 0, 0, nHCopie, nLCopie)	
+      	FIN
+      	
+      	
+     type : 458752
+   -
+     name : InitialiseLoupeVista
+     internal_properties : CAAAAAgAAABQdU3YLn6vsiwcs9cKGoW+TaR5tI7YhRdWDPeHj+wSnCLOBtb69FALKkPehygXfQ9NiorguoDTWsQAvGBA0nzAg75TeVaYsmK9Amqf++CZX74s0pGu0JfQPxKqY/yQlM35fP51mV8j+BnCjcHKvSanomzXj4YuAYK4r0va3frCv4DmcR5sqONiSdjvKIUyaCwPXJkhr3L5/4LjO4PcIj5IaOzdqg==
+     procedure_id : 1819324313835120113
+     type_code : 14
+     code : |1+
+      // Résumé : Initialise le magnifier de Vista
+      // Syntaxe :
+      // InitialiseLoupeVista ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure InitialiseLoupeVista()
+      
+      	// Charge la DLL du Magnifier de Windows Vista
+      	ChargeDLL(MAGNIFICATION)
+      	
+      	// Initialise le Magnifier
+      	API(MAGNIFICATION, "MagInitialize")	
+      	
+      	// Crée une fenêtre pour la réception des images du Magnifier
+      	gnHwnd = API(USER32, "CreateWindowExA", 0, "Magnifier", ProjetInfo(piNomProjet), ...
+      						 0x40000000 + 0x08000000, 0, 0, IMG_LOUPE..Largeur, ...
+      						 IMG_LOUPE..Hauteur, Handle(IMG_LOUPE), 0, SysInstance(), 0)
+      	
+      	// Récupère le DC de la fenêtre
+      	gnDC = API(USER32, "GetWindowDC", gnHwnd)
+      	
+      	// Applique la région elliptique à la fenêtre de réception des images du Magnifier
+      	// Cela va permettre d'activer le dessin uniquement dans cette zone circulaire.
+      	// A chaque fois que le Magnifier mettra à jour l'image, seule la région circulaire 
+      	// sera mise à jour.
+      	API(USER32, "SetWindowRgn", gnHwnd, gnRgn, vrai)
+      		
+      	// Préparation du zoom
+      	tabZoom est un tableau de 3 par 3 réels sur 4
+      	tabZoom[1][1] = gnZoom
+      	tabZoom[2][2] = gnZoom
+      	tabZoom[3][3] = 1
+      	
+      	// Initialisation du zoom
+      	API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &tabZoom)
+      
+      	// Affiche la fenêtre qu'on vient de créer
+      	API(USER32, "ShowWindow", gnHwnd, 5)	
+      	API(USER32, "SetWindowPos", gnHwnd, -1, 0, 0, 0, 0, 0x0001 + 0x0040)	
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x10d997b40556a170
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Loupe.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
